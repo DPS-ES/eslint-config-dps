@@ -32,7 +32,6 @@ module.exports = {
         "ignoreRegExpLiterals": true
       }
     ],
-    indent: ['error', 2, { SwitchCase: 1 }],
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single', { avoidEscape: true }],
     semi: ['error', 'always'],
