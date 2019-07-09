@@ -20,5 +20,6 @@ module.exports = {
     'prefer-arrow-callback': 'error',
     'space-before-function-paren': 'off',
     'comma-dangle': ['error', 'always-multiline']
-  }
+  },
+  "plugins": ["prettier"]
 };
