@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'standard',
+  extends: ['standard', 'prettier'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2018,
