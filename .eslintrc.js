@@ -41,7 +41,16 @@ module.exports = {
     'object-property-newline': 'warn',
     'prefer-arrow-callback': 'error',
     'space-before-function-paren': 'off',
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-dangle': [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+      }
+    ],
   },
   "plugins": ["prettier"]
 };
