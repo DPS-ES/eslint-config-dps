@@ -15,6 +15,6 @@ Basic `.eslintrc` example:
 
 ```json
 {
-  "extends": "ruben"
+  "extends": "dps"
 }
 ```
