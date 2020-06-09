@@ -1,42 +1,42 @@
 {
-  "name": "eslint-config-ruben",
+  "name": "eslint-config-dps",
   "version": "1.0.1",
   "description": "Eslint configuration",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rubenaguadoc/eslint-config-ruben.git"
+    "url": "git+https://github.com/DPS-ES/eslint-config-dps.git"
   },
   "author": "Rubén Aguado Cosano",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/rubenaguadoc/eslint-config-ruben/issues"
+    "url": "https://github.com/DPS-ES/eslint-config-dps/issues"
   },
-  "homepage": "https://github.com/rubenaguadoc/eslint-config-ruben#readme",
+  "homepage": "https://github.com/DPS-ES/eslint-config-dps#readme",
   "private": true,
   "peerDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.9.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^3.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.21.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.5"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.9.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^3.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.21.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.5"
   }
 }
