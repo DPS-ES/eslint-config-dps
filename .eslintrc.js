@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['standard', 'prettier'],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 2018,
   },
@@ -9,28 +9,28 @@ module.exports = {
     node: true,
   },
   rules: {
-    "prettier/prettier": [
-      "error",
+    'prettier/prettier': [
+      'error',
       {
-        "trailingComma": "es5",
-        "tabWidth": 2,
-        "semi": true,
-        "singleQuote": true,
-        "printWidth": 80
-      }
+        trailingComma: 'es5',
+        tabWidth: 2,
+        semi: true,
+        singleQuote: true,
+        printWidth: 80,
+      },
     ],
-    "max-len": [
-      "error",
+    'max-len': [
+      'error',
       {
-        "code": 80,
-        "tabWidth": 2,
-        "comments": 100,
-        "ignoreTrailingComments": true,
-        "ignoreUrls": true,
-        "ignoreStrings": true,
-        "ignoreTemplateLiterals": true,
-        "ignoreRegExpLiterals": true
-      }
+        code: 80,
+        tabWidth: 2,
+        comments: 100,
+        ignoreTrailingComments: true,
+        ignoreUrls: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+        ignoreRegExpLiterals: true,
+      },
     ],
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single', { avoidEscape: true }],
@@ -42,15 +42,15 @@ module.exports = {
     'prefer-arrow-callback': 'error',
     'space-before-function-paren': 'off',
     'comma-dangle': [
-      "error",
+      'error',
       {
-        "arrays": "always-multiline",
-        "objects": "always-multiline",
-        "imports": "always-multiline",
-        "exports": "always-multiline",
-        "functions": "never"
-      }
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'never',
+      },
     ],
   },
-  "plugins": ["prettier"]
+  plugins: ['prettier'],
 };
