@@ -2,7 +2,7 @@ module.exports = {
   extends: ['standard', 'prettier'],
   parser: '@babel/eslint-parser',
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 2020,
   },
   env: {
     browser: true,
