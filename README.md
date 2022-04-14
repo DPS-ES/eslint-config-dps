@@ -1,20 +1,18 @@
 # eslint-config-dps
 
-ESlint &amp; Prettier configuration for VS Code.
+ESlint &amp; Prettier configuration for VS Code, compatible with Babel parser (using preset-env)
 
 # Installation
 
-`npm i -D https://github.com/DPS-ES/eslint-config-dps.git`
-
-Install peer dependencies:<br />
-`npm i -D babel-eslint eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-standard prettier`
+`npm i -D github:DPS-ES/eslint-config-dps`
 
 # .eslintrc
 
 Basic `.eslintrc` example:
 
-```json
+```jsonc
 {
-  "extends": "dps"
+  "extends": "dps",    // For prod rules
+  "extends": "dps/dev" // For dev rules (turns some errors into warnings -> Console, debugger, unused)
 }
 ```
