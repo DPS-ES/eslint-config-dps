@@ -2,9 +2,6 @@
   "ignorePatterns": ["node_modules", "package-lock.json"],
   "extends": [
     "standard",
-    "plugin:node/recommended",
-    "plugin:promise/recommended",
-    "plugin:import/recommended",
     "plugin:sonarjs/recommended",
     "plugin:prettier/recommended"
   ],
