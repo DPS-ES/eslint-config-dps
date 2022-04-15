@@ -1,5 +1,5 @@
 {
-  "ignorePatterns": ["node_modules", "package-lock.json"],
+  "ignorePatterns": ["public", "node_modules", "package-lock.json"],
   "extends": [
     "standard",
     "plugin:sonarjs/recommended",
@@ -15,6 +15,9 @@
   "env": {
     "browser": true,
     "node": true
+  },
+  "globals": {
+    "createElement": "readonly"
   },
   "rules": {
     "prettier/prettier": [

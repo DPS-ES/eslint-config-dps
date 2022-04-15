@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dps",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Eslint configuration for Web Development @ DPS",
   "main": "index.js",
   "private": true,
