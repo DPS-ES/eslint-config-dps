@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "release": "standard-version"
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "author": "Rubén Aguado Cosano <rubenaguadoc@dpsconsulting.es> (https://github.com/rubenaguadoc)",
   "license": "UNLICENSED",
