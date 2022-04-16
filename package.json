@@ -23,6 +23,9 @@
     "eslint",
     "eslintconfig"
   ],
+  "publishConfig": {
+    "@dps-es:registry": "https://npm.pkg.github.com"
+  },
   "babel": {
     "presets": [
       "@babel/preset-env"
