@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/DPS-ES/eslint-config-dps/compare/v5.1.3...v6.0.0) (2022-04-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* Change package name
+
+### Bug Fixes
+
+* :bookmark: Change package name ([a704924](https://github.com/DPS-ES/eslint-config-dps/commit/a7049245c5e5f2d17e2d5e4cc1044d20eabe4db7))
+
 ### [5.1.3](https://github.com/DPS-ES/eslint-config-dps/compare/v5.1.2...v5.1.3) (2022-04-16)
 
 
