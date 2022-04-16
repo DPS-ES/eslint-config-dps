@@ -3,7 +3,6 @@
   "version": "5.1.0",
   "description": "Eslint configuration for Web Development @ DPS",
   "main": "index.js",
-  "private": true,
   "scripts": {
     "release": "standard-version && git push --follow-tags && npm publish"
   },
