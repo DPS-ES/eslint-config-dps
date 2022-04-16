@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.0.1](https://github.com/DPS-ES/eslint-config-dps/compare/v6.0.0...v6.0.1) (2022-04-16)
+
+
+### Bug Fixes
+
+* :arrow_up: Update peer Dependencies ([332f42b](https://github.com/DPS-ES/eslint-config-dps/commit/332f42b2d76f7f97931e519ac2a72be43f441e54))
+
 ## [6.0.0](https://github.com/DPS-ES/eslint-config-dps/compare/v5.1.3...v6.0.0) (2022-04-16)
 
 
