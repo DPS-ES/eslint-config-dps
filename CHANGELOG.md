@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.0](https://github.com/DPS-ES/eslint-config-dps/compare/v5.0.0...v5.1.0) (2022-04-16)
+
+
+### Features
+
+* :bookmark: Automate release command ([b56709b](https://github.com/DPS-ES/eslint-config-dps/commit/b56709b101d1855dcfdbafcc3da1460c3316f7c8))
+
 ## 5.0.0 (2022-04-16)
 
 
