@@ -1,28 +1,34 @@
-# eslint-config-dps
+# @dps-es/eslint-config
 
 ESlint &amp; Prettier configuration for VS Code, compatible with Babel parser (using preset-env)
 
 # Installation
 
-Add the following line to your proyect's `.npmrc` file
+1. Add the following lines to your proyect's `.npmrc` file
 
-`@dps-es:registry=https://npm.pkg.github.com`
+```bash
+@dps-es:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${NPM_TOKEN}
+```
 
-Sign in into the Github NPM resgistry via the command line with a personal access token (https://github.com/settings/tokens):
+2. Add the ENV variable NPM_TOKEN to your terminal (not .env file), with the valuea of a Github personal access token with package:read permission granted (https://github.com/settings/tokens).
 
-`npm login --scope=@dps-es --registry=https://npm.pkg.github.com`
-
-Finally, run to install:
-
-`npm i -D @dps-es/eslint-config-dps`
+3. Run `npm i -D @dps-es/eslint-config`
 
 # .eslintrc
 
-Basic `.eslintrc` example:
+Basic `.eslintrc` examples:
 
 ```jsonc
+// For prod rules
 {
-  "extends": "dps", // For prod rules
-  "extends": "dps/dev" // For dev rules (turns some errors into warnings -> Console, debugger, unused)
+  "extends": "@dps-es"
+}
+```
+
+```jsonc
+// For dev rules (turns some errors into warnings -> Console, debugger, unused)
+{
+  "extends": "@dps-es/eslint-config/dev"
 }
 ```
