@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.1.1](https://github.com/DPS-ES/eslint-config-dps/compare/v5.1.0...v5.1.1) (2022-04-16)
+
+
+### Bug Fixes
+
+* :bookmark: Remove private field from package.json ([e142ccd](https://github.com/DPS-ES/eslint-config-dps/commit/e142ccdec29a15abac3f8f7930b2608118612879))
+
 ## [5.1.0](https://github.com/DPS-ES/eslint-config-dps/compare/v5.0.0...v5.1.0) (2022-04-16)
 
 
