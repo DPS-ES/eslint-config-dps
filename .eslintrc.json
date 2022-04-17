@@ -63,6 +63,7 @@
         "exports": "always-multiline",
         "functions": "never"
       }
-    ]
+    ],
+    "sonarjs/no-duplicate-string": "off"
   }
 }
