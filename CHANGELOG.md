@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.0.0](https://github.com/DPS-ES/eslint-config-dps/compare/v6.0.5...v7.0.0) (2022-08-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update Eslint to V8
+
+* :boom: Update Eslint and Eslint plugins to V8 ([4f5bb5c](https://github.com/DPS-ES/eslint-config-dps/commit/4f5bb5cc18ad05f481b9283d740450ba4465cdac))
+
 ### [6.0.5](https://github.com/DPS-ES/eslint-config-dps/compare/v6.0.4...v6.0.5) (2022-04-23)
 
 ### [6.0.4](https://github.com/DPS-ES/eslint-config-dps/compare/v6.0.3...v6.0.4) (2022-04-17)
