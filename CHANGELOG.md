@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [7.0.1](https://github.com/DPS-ES/eslint-config-dps/compare/v7.0.0...v7.0.1) (2022-08-29)
+
+
+### Bug Fixes
+
+* :bug: Don't mark JSX used variables as unused ([0dc8f17](https://github.com/DPS-ES/eslint-config-dps/commit/0dc8f17759c4c5f02dc55660fd59b3ce543699b4))
+
 ## [7.0.0](https://github.com/DPS-ES/eslint-config-dps/compare/v6.0.5...v7.0.0) (2022-08-28)
 
 
