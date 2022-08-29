@@ -1,5 +1,6 @@
 {
   "ignorePatterns": ["public", "node_modules", "package-lock.json"],
+  "plugins": ["react"],
   "extends": [
     "standard",
     "plugin:sonarjs/recommended",
@@ -65,6 +66,7 @@
       }
     ],
     "sonarjs/no-duplicate-string": "off",
-    "sonarjs/cognitive-complexity": "off"
+    "sonarjs/cognitive-complexity": "off",
+    "react/jsx-uses-vars": "error"
   }
 }
