@@ -1,6 +1,6 @@
 {
   "name": "@dps-es/eslint-config",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "description": "Eslint configuration for Web Development @ DPS",
   "main": "index.js",
   "scripts": {
