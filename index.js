@@ -1,39 +1,25 @@
 const neostandard = require('neostandard');
 const sonarjs = require('eslint-plugin-sonarjs');
-const react = require('eslint-plugin-react');
 const prettierRecommended = require('eslint-plugin-prettier/recommended');
-const globals = require('globals');
 
 module.exports = [
-  {
+  ...neostandard({
+    // Pasamos estas configuraciones por dentro de neostandar, pero son globales de eslint, podrían estar fuera
     ignores: ['public/**', 'node_modules/**', 'package-lock.json'],
-  },
-
-  // Standard rules (replaces eslint-config-standard, includes n + promise plugins)
-  ...neostandard({ noStyle: true }),
-
-  // SonarJS recommended rules
+    env: ['browser', 'node'],
+    globals: { createElement: 'readonly' },
+    noStyle: true, // Deshabilitado porque de estas reglas ya se encarga prettier
+  }),
   sonarjs.configs.recommended,
-
-  // Prettier (includes eslint-config-prettier to disable conflicting rules)
-  prettierRecommended,
-
-  // Custom DPS configuration
+  prettierRecommended, // Debe ir la úiltima, para que sus reglas tengan prioridad sobre las de los otros plugins
   {
-    plugins: {
-      react,
-    },
+    plugins: { react: neostandard.plugins.react },
     languageOptions: {
       ecmaVersion: 'latest',
       parserOptions: {
         ecmaFeatures: {
           jsx: true,
         },
-      },
-      globals: {
-        ...globals.browser,
-        ...globals.node,
-        createElement: 'readonly',
       },
     },
     rules: {
@@ -53,6 +39,8 @@ module.exports = [
       'no-debugger': 'error',
       'no-var': 'error',
       'prefer-const': 'warn',
+      // Esta regla dejará de hacer falta en Eslint 10: https://eslint.org/docs/latest/use/migrate-to-10.0.0#jsx-reference-tracking
+      // Si quitamos la regla, quitar también el plugin react, que es el único que la usa
       'react/jsx-uses-vars': 'error',
       'sonarjs/no-duplicate-string': 'off',
       'sonarjs/cognitive-complexity': 'off',
