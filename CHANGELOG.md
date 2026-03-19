@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [8.0.1](https://github.com/DPS-ES/eslint-config-dps/compare/v8.0.0...v8.0.1) (2026-03-19)
+
 ## [8.0.0](https://github.com/DPS-ES/eslint-config-dps/compare/v7.0.2...v8.0.0) (2026-03-19)
 
 
