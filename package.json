@@ -1,8 +1,12 @@
 {
   "name": "@dps-es/eslint-config",
   "version": "7.0.2",
-  "description": "Eslint configuration for Web Development @ DPS",
+  "description": "Eslint config for Web Development @ DPS",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./dev": "./dev.js"
+  },
   "scripts": {
     "release": "standard-version && git push --follow-tags && npm publish"
   },
@@ -17,49 +21,31 @@
     "url": "https://github.com/DPS-ES/eslint-config-dps/issues"
   },
   "engines": {
-    "node": ">=14.16.0"
+    "node": ">=18.18.0"
   },
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "flat-config"
   ],
   "publishConfig": {
     "@dps-es:registry": "https://npm.pkg.github.com"
   },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
+  "dependencies": {
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-sonarjs": "^4.0.2",
+    "globals": "^17.4.0",
+    "neostandard": "^0.13.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.13",
-    "@babel/eslint-parser": "^7.18.9",
-    "@babel/preset-env": "^7.18.10",
-    "eslint": "^8.23.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.0.1",
-    "eslint-plugin-react": "^7.31.1",
-    "eslint-plugin-sonarjs": "^0.15.0",
-    "prettier": "^2.7.1",
+    "eslint": "^9.39.4",
+    "prettier": "^3.8.1",
     "standard-version": "^9.5.0"
   },
   "peerDependencies": {
-    "@babel/core": "^7.18.13",
-    "@babel/eslint-parser": "^7.18.9",
-    "@babel/preset-env": "^7.18.10",
-    "eslint": "^8.23.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.0.1",
-    "eslint-plugin-react": "^7.31.1",
-    "eslint-plugin-sonarjs": "^0.15.0",
-    "prettier": "^2.7.1"
+    "eslint": ">=9.0.0",
+    "prettier": ">=3.0.0"
   }
 }

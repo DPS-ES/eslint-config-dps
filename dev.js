@@ -1,7 +1,12 @@
-const prodConfig = require('./.eslintrc.json');
+const prodConfig = require('./index.js');
 
-prodConfig.rules['no-console'] = 'warn';
-prodConfig.rules['no-debugger'] = 'warn';
-prodConfig.rules['no-unused-vars'] = 'warn';
-
-module.exports = prodConfig;
+module.exports = [
+  ...prodConfig,
+  {
+    rules: {
+      'no-console': 'warn',
+      'no-debugger': 'warn',
+      'no-unused-vars': 'warn',
+    },
+  },
+];
