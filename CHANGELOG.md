@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [8.0.0](https://github.com/DPS-ES/eslint-config-dps/compare/v7.0.2...v8.0.0) (2026-03-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update ESLint to V9
+
+* :boom: Migración a ESLint 9 ([00d5148](https://github.com/DPS-ES/eslint-config-dps/commit/00d5148ebd2b25fa54adb754994a0ea168ea4c43))
+
 ### [7.0.2](https://github.com/DPS-ES/eslint-config-dps/compare/v7.0.1...v7.0.2) (2022-09-18)
 
 ### [7.0.1](https://github.com/DPS-ES/eslint-config-dps/compare/v7.0.0...v7.0.1) (2022-08-29)
