@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [8.0.2](https://github.com/DPS-ES/eslint-config-dps/compare/v8.0.1...v8.0.2) (2026-03-23)
+
+
+### Bug Fixes
+
+* :bug: Remove some more Sonar Rules ([0fb3073](https://github.com/DPS-ES/eslint-config-dps/commit/0fb30736c792e75f3894269734b35ed61e552ebb))
+
 ### [8.0.1](https://github.com/DPS-ES/eslint-config-dps/compare/v8.0.0...v8.0.1) (2026-03-19)
 
 ## [8.0.0](https://github.com/DPS-ES/eslint-config-dps/compare/v7.0.2...v8.0.0) (2026-03-19)
