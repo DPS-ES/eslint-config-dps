@@ -52,6 +52,8 @@ module.exports = [
       'sonarjs/todo-tag': 'off',
       'sonarjs/no-ignored-exceptions': 'off',
       'sonarjs/no-nested-functions': 'off',
+      'sonarjs/no-unused-vars': 'off',
+      'sonarjs/no-nested-template-literals': 'off',
     },
   },
 ];
