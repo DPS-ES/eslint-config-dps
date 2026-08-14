@@ -55,6 +55,8 @@ module.exports = [
       'sonarjs/no-unused-vars': 'off',
       'sonarjs/no-nested-template-literals': 'off',
       'sonarjs/unused-imports': 'off',
+      'sonarjs/no-clear-text-protocols': 'off',
+      'sonarjs/os-command': 'off',
     },
   },
 ];
