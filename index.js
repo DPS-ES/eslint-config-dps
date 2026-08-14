@@ -57,6 +57,8 @@ module.exports = [
       'sonarjs/unused-imports': 'off',
       'sonarjs/no-clear-text-protocols': 'off',
       'sonarjs/os-command': 'off',
+      'sonarjs/super-linear-regex': 'off',
+      'sonarjs/content-length': 'off',
     },
   },
 ];
